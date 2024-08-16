@@ -3,7 +3,7 @@ Dockerfile
 FROM ubuntu
 RUN echo "hello world" >/tmp/sravan1
 :wq!    ###build##
-
+1. go to in side container to check /tmp file show you "hello world"
 ######################
 
 FROM ubuntu
