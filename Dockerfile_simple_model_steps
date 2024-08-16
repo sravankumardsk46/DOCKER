@@ -24,6 +24,7 @@ ll
 3. so now unzip that   tar   RED file
 gzip test.tar
 ll         ## show you test.tar.gz##
+ rm -rf test
 
 docker start cont2
 docker attach cont2
