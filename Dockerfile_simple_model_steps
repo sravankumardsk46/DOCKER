@@ -21,5 +21,9 @@ this si my file
 touch test
 tar -cvf test.tar test        ####this is command for create tar filr    RED   #####
 ll
+3. so now unzip that   tar   RED file
+gzip test.tar
+ll         ## show you test.tar.gz##
+
 
 ######################
