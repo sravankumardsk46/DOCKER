@@ -1,1 +1,7 @@
 Dockerfile
+
+FROM ubuntu
+RUN echo "hello world" >/tmp/sravan1
+:wq!    ###build##
+
+######################
