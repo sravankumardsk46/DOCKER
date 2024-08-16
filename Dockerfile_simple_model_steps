@@ -5,3 +5,14 @@ RUN echo "hello world" >/tmp/sravan1
 :wq!    ###build##
 
 ######################
+
+FROM ubuntu
+WORKDIR /tmp
+RUN echo "this is sravan file" >/tmp/sravan1
+ENV name anu
+COPY file1 /tmp
+ADD test.tar.gz /tmp
+
+:wq!    ###run###
+
+######################
