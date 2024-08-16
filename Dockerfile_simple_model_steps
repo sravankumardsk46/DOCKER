@@ -13,6 +13,13 @@ ENV name anu
 COPY file1 /tmp
 ADD test.tar.gz /tmp
 
-:wq!    ###run###  this will faile becouse local not there file1 so vi file1 
+:wq!    ###run###  
+1 ,this will faile becouse local not there file1 so
+vi file1 
+this si my file
+2. above naot there    tar   file   so vecan create locally
+touch test
+tar -cvf test.tar test        ####this is command for create tar filr    RED   #####
+ll
 
 ######################
