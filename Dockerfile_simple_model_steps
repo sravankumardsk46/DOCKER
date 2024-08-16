@@ -26,7 +26,10 @@ gzip test.tar
 ll         ## show you test.tar.gz##
  rm -rf test
 ###docker build -t cont2 .  ###
-
+#######################################
+docker build -t image .
+docker run -it --name cont2 image2
+########################################
 
 docker start cont2
 docker attach cont2
@@ -37,5 +40,5 @@ echo $name
 o/p anu 
 ###########################################
 
-
+OK IT WORKS
 ######################
