@@ -25,5 +25,14 @@ ll
 gzip test.tar
 ll         ## show you test.tar.gz##
 
+docker start cont2
+docker attach cont2
+#/tmp container entry 
+ll      it show u all file
+cat sravan1       
+echo $name
+o/p anu 
+###########################################
+
 
 ######################
