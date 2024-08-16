@@ -25,6 +25,8 @@ ll
 gzip test.tar
 ll         ## show you test.tar.gz##
  rm -rf test
+###docker build -t cont2 .  ###
+
 
 docker start cont2
 docker attach cont2
