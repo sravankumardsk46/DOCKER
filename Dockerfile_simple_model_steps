@@ -13,6 +13,6 @@ ENV name anu
 COPY file1 /tmp
 ADD test.tar.gz /tmp
 
-:wq!    ###run###
+:wq!    ###run###  this will faile becouse local not there file1 so vi file1 
 
 ######################
