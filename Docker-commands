@@ -43,3 +43,10 @@ networks:
   front-tier: {}
   back-tier: {}
 
+#############################################################################
+
+docker compose ps
+
+NAME                IMAGE                COMMAND                  SERVICE             CREATED             STATUS              PORTS
+example-frontend-1  example/webapp       "nginx -g 'daemon ofâ¦"   frontend            2 minutes ago       Up 2 minutes        0.0.0.0:443->8043/tcp
+example-backend-1   example/database     "docker-entrypoint.sâ¦"   backend             2 minutes ago       Up 2 minutes
