@@ -1,0 +1,25 @@
+mkdir nginx-app
+cd nginx-app
+vi index.html
+-----------------------------------------
+code html
+----------------------------------------
+vi Dockerfile
+FROM nginx:latest
+
+# Remove default nginx page
+RUN rm -rf /usr/share/nginx/html/*
+
+# Copy your HTML file
+COPY index.html /usr/share/nginx/html/
+
+# Expose port 80
+EXPOSE 80
+
+# Start nginx
+CMD ["nginx", "-g", "daemon off;"]
+:wq!
+docker build -t my-nginx-app .
+docker run -d -p 80:80 my-nginx-app
+# ec2 poer 80
+http://<your-ec2-public-ip>
